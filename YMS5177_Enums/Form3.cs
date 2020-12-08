@@ -50,7 +50,7 @@ namespace YMS5177_Enums
         {
 
             int plaka = int.Parse(txtPlakaKod.Text);
-            if (Enum.IsDefined(typeof(Cities), plaka)) 
+            if (Enum.IsDefined(typeof(Cities), plaka)) //IsDefined aksi taktirde vereceği  hatayı kontrol etmemizi sağlayan enum 'ın kendi gömülü methodlarından biridir.
 
             {
                 Cities selectedcity = (Cities)plaka;
@@ -62,7 +62,6 @@ namespace YMS5177_Enums
                 MessageBox.Show("Girdiğiniz plaka numarasına ait bir şehir bulunmamaktadır.");
 
             }
-            //Enum içerisinde varolan değerin kontrolünü sağlamak için hazır gömülü bir method bulunmaktadır.Bu methodu araştırarak uygulamamıza implement ediniz.
-        }
+            
     }
 }
