@@ -12,4 +12,5 @@
 * [Stack vs Heap fields\(RAM\)](stack-vs-heap-fields-ram.md)
 * [String vs String Builder\(C\#\)](untitled.md)
 * [Sealed Class in C\#](sealed-class-in-c.md)
+* [Convert Parse Farkı](convert-parse-farki.md)
 
